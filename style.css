@@ -1,0 +1,309 @@
+body{
+    background-image: url(./nick-scheerbart-soGoAfesWO8-unsplash.jpg);
+    background-size: cover;
+}
+ul{
+    list-style: none;
+}
+#mainimage{
+    width:100%;
+                height:100%;
+                object-fit:cover;
+}
+.upper_navbar{
+    margin-top: 0px;
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgb(32, 178, 170, 0.5);
+
+}
+#uppernavbar_content{
+    margin-top: 0px;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+}
+#home{
+    background-color: lightseagreen;
+    height: 28px;
+    width: 28px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-radius: 4px;
+    margin-right: 22px;
+}
+#home:hover{
+    opacity: 0.6;
+}
+#home_image{
+    height: 18px;
+    width: 18px;
+   margin:auto;
+   padding: 5px;
+}
+#boards{
+    display: flex;
+    background-color: lightseagreen;
+    height: 28px;
+    width: 88px;
+    margin-top: 7px;
+    border-radius: 4px;
+    margin-right: 22px;
+    margin-bottom: 7px;
+}
+#boards:hover{
+    opacity: 0.6;
+}
+#boardtext{
+    margin-top: auto;
+    margin-bottom: 4px;
+    padding-right: 4px;
+}
+#list_image{
+    height: 18px;
+    width: 18px;
+   margin:auto;
+   padding: 5px;
+}
+#main_title{
+    color: white;
+    font-weight: 500;
+    font-size: larger;
+    margin: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#navbar_textbox{
+    border-style: none;
+    resize: none;
+    height: 28px;
+    border-radius: 4px;
+    margin-top: 7px;
+    margin-bottom: 2px;
+    background-color: lightseagreen;
+}
+#navbar_textbox:focus{
+    background-color: white;
+    border-style: none;
+}
+#add_sign{
+    margin-left: auto;
+    background-color: lightseagreen;
+    height: 28px;
+    width: 28px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-radius: 4px;
+    margin-right: 18px;
+}
+#add_sign:hover{
+    opacity: 0.6;
+}
+#add_image{
+    height: 18px;
+    width: 18px;
+   margin:auto;
+   padding: 5px;
+}
+#profile{
+    background-color: lightseagreen;
+    height: 28px;
+    width: 28px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-radius: 4px;
+    margin-right: 28px;
+}
+#profile:hover{
+    opacity: 0.6;
+}
+#user_image{
+    height: 18px;
+    width: 18px;
+   margin:auto;
+   padding: 5px;
+}
+.lower_navbar{
+    margin-top: 0;
+    width: 100%;
+    background-color: rgba(75, 75, 75, 0.447);
+}
+.lowernavbar_content{
+    color: white;
+    margin-top: 0px;
+    list-style: none;
+    display: flex;
+    height: 44px;
+}
+#showmenu_image{
+    height: 18px;
+    width: 18px;
+   padding: 5px;
+   margin-right: 6px;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+#showmenu{
+    margin-right: 28px;
+    margin-left: auto;
+    display: flex;
+}
+#showmenu:hover{
+    opacity: 0.6;
+}
+#frontendtraining{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#showmenu_text{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+/*End of navbar*/
+/*Starting of main body*/
+.main{
+    display: flex;
+    overflow: auto;
+}
+#horizontal_ellipse{
+    height: 24px;
+    width: 24px;
+    margin-left: auto;
+    margin-top: 16px;
+    margin-right: 10px;
+}
+.ToDo{
+    background-color: #DBDFDF;
+    height: 245px;
+    width: 255px;
+    border-radius: 6px;
+}
+.main_heading{
+    margin-left: 10px;
+}
+.common_upper_strip{
+display: flex;
+}
+.card{
+
+    width: 90%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    height: 28px;
+    background-color: white;
+    padding: 5px;
+    border-color: black;
+}
+.pen_image1{
+    
+    height: 16px;
+    width: 18px;
+    padding-left: 117px;
+    padding-top: 5px;
+
+}
+.pen_image2{
+    height: 16px;
+    width: 18px;
+    padding-left: 130px;
+    padding-top: 5px;
+}
+.pen_image3{
+    height: 16px;
+    width: 18px;
+    padding-left: 94px;
+    padding-top: 6px;
+}
+.card:hover{
+    opacity: 0.6;
+}
+.add_card{
+    margin-left: 10px;
+}
+.add_card:hover{
+    opacity: 0.6;
+}
+.doing{
+    background-color: #DBDFDF;
+    height: 300px;
+    width: 255px;
+    border-radius: 6px;
+    margin-left: 15px;
+}
+.doing_textbox{
+    width: 90%;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    height: 95px;
+    background-color: white;
+    padding: 5px;
+    border-style: none;
+    margin-left: 3%;
+}
+.addcard_button{
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    background-color: olive;
+    height: 48px;
+    width: 100px;
+    margin: 15px;
+    padding-bottom: 5px;
+    border-style: none;
+    border-radius: 4px;
+
+}
+.addcard_button:hover{
+    opacity: 0.6;
+}
+.cancel_button{
+    height: 32px;
+    width: 32px;
+    margin-left: 5px;
+}
+.cancel_button:hover{
+    opacity: 0.6;
+}
+.Testing{
+    background-color: #DBDFDF;
+    height: 150px;
+    width: 255px;
+    border-radius: 6px;
+    margin-left: 15px;
+}
+.pen_image4{
+    height: 16px;
+    width: 18px;
+    justify-content: flex-end;
+    margin-left: 70px;
+    margin-top: 2px;
+}
+.Done{
+    background-color: #DBDFDF;
+    height: 100px;
+    width: 255px;
+    border-radius: 6px;
+    margin-left: 15px;
+}
+.Add_another_list{
+    background-color: #DBDFDF;
+    height: 35px;
+    width: 255px;
+    border-radius: 6px;
+    margin-left: 15px;
+}
+.Add_another_list .add_card{
+    margin-top: 8px;
+}
+.enterlist .doing_textbox{
+    margin-top: 25px;
+}
+.enterlist{
+    background-color: #DBDFDF;
+    height: 250px;
+    width: 300px;
+    border-radius: 6px;
+    margin-left: 15px;
+}

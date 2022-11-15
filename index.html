@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trello Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="project">
+    <div class="upper_navbar">
+        <ul id="uppernavbar_content">
+            <li id="home">
+                <img src="./house-solid.svg" alt="" id="home_image">
+            </li>
+            <li id="boards">
+                <img src="./list-solid.svg" alt="" id="list_image">
+                <p id="boardtext">Boards</p> 
+            </li>
+            <li id="uppernavbar_textbox">
+                <form action="navbartextbox">
+                    <textarea name="textbox" id="navbar_textbox" cols="17" value=""></textarea>
+                </form>
+            </li>
+            <li id="main_title">
+               <b>Tralala</b>
+            </li>
+            <li id="add_sign">
+                <img src="./plus-solid.svg" alt="" id="add_image">
+            </li>
+            <li id="profile">
+                <img src="./user-solid.svg" alt="" id="user_image">
+            </li>
+        </ul>
+    </div>
+    <div class="lower_navbar">
+        <ul class="lowernavbar_content">
+            <li id="frontendtraining">
+                Frontend Training
+            </li>
+            <li id="showmenu">
+                <img src="./ellipsis-vertical-solid.svg" alt="" id="showmenu_image">
+                <p id="showmenu_text">Show menu</p>
+            </li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="ToDo">
+            <div class="common_upper_strip">
+                <h3 class="main_heading">To Do</h3>
+                <img src="./ellipsis-solid.svg" alt="" id="horizontal_ellipse">
+            </div>
+                <div class="card">Learn HTML
+                    <img src="./pen-solid.svg" alt="" class="pen_image1"> </div>
+                    <div class="card">Learn CSS
+                        <img src="./pen-solid.svg" alt="" class="pen_image2"> </div>
+                        <div class="card">Learn Javascript
+                            <img src="./pen-solid.svg" alt="" class="pen_image3"> </div>
+                <div class="add_card">+ Add another card</div>
+        </div>
+        <div class="doing">
+            <div class="common_upper_strip">
+                <h3 class="main_heading">Doing</h3>
+                <img src="./ellipsis-solid.svg" alt="" id="horizontal_ellipse">
+            </div>
+            <div class="card">Prepare resume.
+         </div>
+         <form action="text">
+            <input type="text" name="" class="doing_textbox" value="Enter a title for this card...">
+         </form>
+         <div class="common_lowerstrip">
+            <button class="addcard_button">Add Card</button>
+            <img src="./xmark-solid.svg" alt="" class="cancel_button">
+         </div>
+        </div>
+        <div class="Testing">
+            <div class="common_upper_strip">
+                <h3 class="main_heading">Testing/Verifying</h3>
+                <img src="./ellipsis-solid.svg" alt="" id="horizontal_ellipse">
+            </div>
+                <div class="card">Twitter app frontend
+                    <img src="./pen-solid.svg" alt="" class="pen_image4"> </div>
+                <div class="add_card">+ Add another card</div>
+        </div>
+        <div class="Testing">
+            <div class="common_upper_strip">
+                <h3 class="main_heading">Deploying</h3>
+                <img src="./ellipsis-solid.svg" alt="" id="horizontal_ellipse">
+            </div>
+                <div class="card">Twitter app backend
+                    <img src="./pen-solid.svg" alt="" class="pen_image4"> </div>
+                <div class="add_card">+ Add another card</div>
+        </div>
+        <div class="Done">
+            <div class="common_upper_strip">
+                <h3 class="main_heading">Done</h3>
+                <img src="./ellipsis-solid.svg" alt="" id="horizontal_ellipse">
+            </div>
+                <div class="add_card">+ Add another card</div>
+        </div>
+        <div class="Add_another_list">
+                <div class="add_card">+ Add another list</div>
+        </div>
+        <div class="enterlist">
+         <form action="text">
+            <input type="text" name="" class="doing_textbox" value="Enter list title...">
+         </form>
+         <div class="common_lowerstrip">
+            <button class="addcard_button">Add List</button>
+            <img src="./xmark-solid.svg" alt="" class="cancel_button">
+         </div>
+    </div>
+ </div>   
+</body>
+</html>
